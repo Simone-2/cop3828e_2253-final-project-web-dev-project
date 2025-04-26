@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+       <h1>Welcome to Our E-commerce Site!</h1>
+       <nav>
+           <a href="products.html">Products</a>
+           <a href="cart.html">Cart</a>
+           <a href="checkout.html">Checkout</a>
+       </nav>
+   </header>
+
+
+   <main>
+      <h2>Featured Products</h2>
+      <section class="featured-products">
+          <!-- Placeholder for featured products -->
+          <div class="product">
+             <img src="images/placeholder.jpg" alt="Product 1">
+             <h3>Product 2</h3>
+             <p>Short description</p>
+          </div>
+          <!-- Add more products here -->
+      </section>
+   </main>
+
+   <footer>
+       <p>&copy; 2024 E-commerce Website</p>
+   </footer>
+
+   <script src="js/scripts.js"></script>
+</body>
+</html>
